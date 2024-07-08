@@ -47,7 +47,7 @@ const HomePage = () => {
     }, []);
 
 
-
+    console.log("helloooooooo")
     return (
         <div className="home-page">
             <p>toto</p>
