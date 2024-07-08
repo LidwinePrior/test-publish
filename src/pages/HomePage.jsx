@@ -50,7 +50,8 @@ const HomePage = () => {
 
     return (
         <div className="home-page">
-            <Header language={language} onChangeLanguage={handleLanguageChange} />
+            <p>toto</p>
+            {/* <Header language={language} onChangeLanguage={handleLanguageChange} />
             <main>
                 <Presentation language={language} />
                 <Portfolio language={language} />
@@ -58,7 +59,7 @@ const HomePage = () => {
                 <Contact language={language} />
             </main>
             <Footer />
-            <a href="#" className="back-to-top">&uarr;</a>
+            <a href="#" className="back-to-top">&uarr;</a> */}
         </div>
     );
 };
