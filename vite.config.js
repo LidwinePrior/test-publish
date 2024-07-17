@@ -9,6 +9,9 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  root: './', // Définit la racine du projet
   build: {
-input:'./index.html'  },
+    outDir: 'dist', // Le répertoire de sortie pour les fichiers
+    input:'./index.html'  },
 });
+
